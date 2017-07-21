@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Première page JQuery</title>
+        <meta charset="UTF-8">
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p id="para">TODO write content</p>
+        <p></p>
+        <p></p>
+        <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="navbar-plugin.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('p').myCustomNavbar({
+                links: ['https:google.fr', 'https://yahoo.fr'],
+                labels: ['Google', 'Yahoo'],
+                css: {
+                    backgroundColor: '#000',
+//                    color: '#fff'
+                }
+            });
+        });
+    </script>
+    </body>
+</html>
