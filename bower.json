@@ -17,6 +17,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "select2": "^4.0.3",
-    "datatables.net-bs": "^2.1.1"
+    "datatables.net-bs": "^2.1.1",
+    "jquery-ui": "^1.12.1"
   }
 }
