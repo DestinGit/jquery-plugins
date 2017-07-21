@@ -1,0 +1,22 @@
+{
+  "name": "jquery-plugins",
+  "authors": [
+    "formation <toto@toto.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "select2": "^4.0.3",
+    "datatables.net-bs": "^2.1.1"
+  }
+}
